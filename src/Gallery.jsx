@@ -9,7 +9,6 @@ const Gallery = () => {
 
   // get access key from env
   const accessKey = import.meta.env.VITE_ACCESS_KEY;
-  console.log(accessKey);
 
   const res = useQuery({
     queryKey: ["images", searchTerm],
